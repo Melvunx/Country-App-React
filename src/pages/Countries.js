@@ -2,8 +2,8 @@ import React from 'react';
 
 const Countries = () => {
   return (
-    <div>
-      
+    <div className='countries'>
+      <h1>Countries</h1>
     </div>
   );
 };
