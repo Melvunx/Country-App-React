@@ -40,7 +40,11 @@ const Countries = () => {
       </ul>
       {
         // Si le radio est sélectionné, affiche les pays du continent sélectionné
-        selectedRadio && <button onClick={() => setSelectedRadio("")}>Annuler la recherche</button>
+        selectedRadio && (
+          <button onClick={() => setSelectedRadio("")}>
+            Annuler la recherche
+          </button>
+        )
       }
       <ul>
         {data
